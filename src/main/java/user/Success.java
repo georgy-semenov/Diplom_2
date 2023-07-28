@@ -1,24 +1,24 @@
 package user;
 
-public class Succes {
-    private String succes;
+public class Success {
+    private String success;
     public SuccesUser succesUser;
     private String accessToken;
     private String refreshToken;
 
-    public Succes(String succes, SuccesUser succesUser, String accessToken, String refreshToken) {
-        this.succes = succes;
+    public Success(String success, SuccesUser succesUser, String accessToken, String refreshToken) {
+        this.success = success;
         this.succesUser = succesUser;
         this.accessToken = accessToken;
         this.refreshToken = refreshToken;
     }
 
-    public String getSucces() {
-        return succes;
+    public String getSuccess() {
+        return success;
     }
 
-    public void setSucces(String succes) {
-        this.succes = succes;
+    public void setSuccess(String success) {
+        this.success = success;
     }
 
     public SuccesUser getSuccesUser() {

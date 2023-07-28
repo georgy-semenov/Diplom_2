@@ -13,11 +13,11 @@ public class Credentials {
     public Credentials(){
     }
     public static Credentials from(User user){
-        Credentials c = new Credentials();
-        c.setEmail(user.getEmail());
-        c.setPassword(user.getPassword());
-        c.setName(user.getName());
-        return c;
+        Credentials credentials = new Credentials();
+        credentials.setEmail(user.getEmail());
+        credentials.setPassword(user.getPassword());
+        credentials.setName(user.getName());
+        return credentials;
     }
 
     public String getEmail() {
